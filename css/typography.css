@@ -1,0 +1,29 @@
+h1 {
+  font-family: "Coda";
+  font-weight: 100;
+  font-size: 52px;
+  color: #46d682;
+  margin: 0;
+}
+
+h2 {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  color: #46d682;
+  margin: 0;
+}
+
+p {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 200;
+  margin: 0;
+}
+
+a {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+}
