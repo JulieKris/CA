@@ -3,13 +3,13 @@
   height: 650px;
   margin-left: -10rem;
   margin-right: -10rem;
-  overflow-y: hidden;
+  overflow-y: auto;
   scroll-snap-align: y mandatory;
   scroll-behavior: smooth;
 }
 
 .exhibitionsSlider {
-  height: 50%;
+  height: 3250px;
 }
 
 .exhibitions {
@@ -51,7 +51,7 @@
 .sliderNavWrapper {
   z-index: 2;
   position: relative;
-  top: -23rem;
+  bottom: 272.5px;
 }
 
 .exhibitionsSliderNav {
@@ -61,6 +61,7 @@
   right: -5rem;
   flex-direction: column;
   gap: 10px;
+  bottom: 100%;
 
   a {
     height: 10px;
