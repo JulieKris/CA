@@ -1,7 +1,39 @@
-header {
+body {
+  width: 100%;
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+  background-color: var(--background-color);
+}
 
-  li {
-    display: inline;
+main {
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-top: 92px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.flex {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 20px;
+
+  div {
+    flex-wrap: wrap;
+    flex: 1;
+    height: min-content;
   }
+
+  img {
+    width: 30.7%;
+    object-fit: cover;
+  }
+}
+
+.flexrow {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }

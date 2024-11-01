@@ -1,0 +1,78 @@
+.exhibitionsSliderWrapper {
+  position: relative;
+  height: 650px;
+  margin-left: -10rem;
+  margin-right: -10rem;
+  overflow-y: hidden;
+  scroll-snap-align: y mandatory;
+  scroll-behavior: smooth;
+}
+
+.exhibitionsSlider {
+  height: 50%;
+}
+
+.exhibitions {
+  height: 571px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: 100%;
+  align-content: center;
+
+  section {
+    color: white;
+    width: 350px;
+    margin-left: 10rem;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+}
+
+#exhibition-1 {
+  background-color: gray;
+}
+
+#exhibition-2 {
+  background-color: aqua;
+}
+
+#exhibition-3 {
+  background-color: blueviolet;
+}
+
+#exhibition-4 {
+  background-color: pink;
+}
+
+#exhibition-5 {
+  background-color: greenyellow;
+}
+
+.sliderNavWrapper {
+  z-index: 2;
+  position: relative;
+  top: -23rem;
+}
+
+.exhibitionsSliderNav {
+  z-index: 2;
+  position: absolute;
+  display: flex;
+  right: -5rem;
+  flex-direction: column;
+  gap: 10px;
+
+  a {
+    height: 10px;
+    width: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: var(--heading-color);
+  }
+
+  a:hover {
+    background-color: var(--heading-color);
+  }
+}

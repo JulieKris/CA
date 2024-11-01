@@ -28,62 +28,90 @@
   <body>
     <header>
       <a href="/"><img src="images/logo.png" id="logo" /></a>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="">Events</a></li>
-        <li><a href="exhibitions.html">Exhibitions</a></li>
-        <li><a href="visit.html">Visit</a></li>
-      </ul>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="exhibitions.html">Exhibitions</a></li>
+          <li><a href="visit.html" class="selectedPage">Visit</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
-      <section>
-        <h1>Visit</h1>
-        <h2>Location</h2>
-        <p>The museum is located at idnsdis Jessheim</p>
-        <h2>Hours</h2>
-        <ul>
-          <li>Monday: Closed</li>
-          <li>Tuesday: 10:00 – 16:00</li>
-          <li>Wednesday: 10:00 – 16:00</li>
-          <li>Thursday: 10:00 – 16:00</li>
-          <li>Friday: 10:00 – 19:00</li>
-          <li>Saturday: 9:00 – 16:00</li>
-          <li>Sunday: 9:00 – 13:00</li>
-        </ul>
-        <h2>Food and Drink</h2>
-        <p>
-          There is a café attached to the museum where you can get light
-          lunches, soft drinks, coffee, snacks and more.
-        </p>
-        <h2>Shop</h2>
-        <p>
-          Our shop offers a range of memorabilia from the museum as well as
-          great gifts and activity packs that allow you to continue to explore
-          science even after you’ve left the museum.
-        </p>
-        <h2>Accessibility</h2>
-        <p>
-          The museum has wheelchair accessibility ramps. It also has audio
-          guides and braille display signs for the visually impaired.
-        </p>
-      </section>
+      <h1>Visit</h1>
+      <div class="flex">
+        <div class="flexrow">
+          <section>
+            <h2>Location</h2>
+            <p>The museum is located at idnsdis Jessheim</p>
+          </section>
+          <section>
+            <h2>Hours</h2>
+            <ul class="hoursList">
+              <li>Monday: Closed</li>
+              <li>Tuesday: 10:00 – 16:00</li>
+              <li>Wednesday: 10:00 – 16:00</li>
+              <li>Thursday: 10:00 – 16:00</li>
+              <li>Friday: 10:00 – 19:00</li>
+              <li>Saturday: 9:00 – 16:00</li>
+              <li>Sunday: 9:00 – 13:00</li>
+            </ul>
+          </section>
+        </div>
+        <div class="flexrow">
+          <section>
+            <h2>Food and Drink</h2>
+            <p>
+              There is a café attached to the museum where you can get light
+              lunches, soft drinks, coffee, snacks and more.
+            </p>
+          </section>
+          <section>
+            <h2>Shop</h2>
+            <p>
+              Our shop offers a range of memorabilia from the museum as well as
+              great gifts and activity packs that allow you to continue to
+              explore science even after you’ve left the museum.
+            </p>
+          </section>
+        </div>
+        <div>
+          <section>
+            <h2>Accessibility</h2>
+            <p>
+              The museum has wheelchair accessibility ramps. It also has audio
+              guides and braille display signs for the visually impaired.
+            </p>
+          </section>
+        </div>
+      </div>
     </main>
     <footer>
-      <h2>Information</h2>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="visit.html">Visit</a></li>
-      </ul>
-      <h2>Events and Exhibitions</h2>
-      <ul>
-        <li><a href="events.html">Events</a></li>
-        <li><a href="exhibitions.html">Exhibitions</a></li>
-      </ul>
-      <h2>Terms and Privacy</h2>
-      <ul>
-        <li><a href="terms.html">Terms and Conditions</a></li>
-        <li><a href="privacy.html">Privacy Policy</a></li>
-      </ul>
+      <nav>
+        <div>
+          <h2>Information</h2>
+          <ul>
+            <li><a href="/" class="selectedPage">Home</a></li>
+            <li><a href="visit.html">Visit</a></li>
+            <li><a href="get-involved.html">Get Involved</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Events and Exhibitions</h2>
+          <ul>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="exhibitions.html">Exhibitions</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Terms and Privacy</h2>
+          <ul>
+            <li><a href="terms.html">Terms and Conditions</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>© Ullensaker Science Museum</p>
     </footer>
   </body>
 </html>

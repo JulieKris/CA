@@ -1,33 +1,8 @@
-@import url(layout.css);
+@import url(variables.css);
+@import url(typography.css);
 @import url(layout.css);
 @import url(header.css);
 @import url(footer.css);
-@import url(typography.css);
-
-body {
-  background-color: #f1f3ec;
-  margin: 0;
-  grid-template-rows: auto, 1, auto;
-}
-
-main {
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
-#logo {
-  background-color: #46d682;
-  background-image: url(../images/logo_gif.gif);
-}
-
-footer {
-  background-color: black;
-  color: white;
-  margin: 0;
-
-  h2 {
-    color: white;
-  }
-}
+@import url(index.css);
+@import url(events.css);
+@import url(exhibitions.css);

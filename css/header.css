@@ -1,0 +1,31 @@
+header {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: var(--background-color);
+  align-items: baseline;
+  z-index: 4;
+
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: inline;
+    margin-left: 40px;
+  }
+}
+
+#logo {
+  width: 150px;
+  background-color: var(--heading-color);
+  background-image: url(../images/logo_gif.gif);
+  background-size: 150px;
+  margin: 0;
+  padding: 0;
+}

@@ -2,7 +2,7 @@ h1 {
   font-family: "Coda";
   font-weight: 100;
   font-size: 52px;
-  color: #46d682;
+  color: var(--heading-color);
   margin: 0;
 }
 
@@ -10,7 +10,7 @@ h2 {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 28px;
-  color: #46d682;
+  color: var(--heading-color);
   margin: 0;
 }
 
@@ -19,11 +19,51 @@ p {
   font-size: 18px;
   font-weight: 200;
   margin: 0;
+  margin-bottom: 20px;
+  margin-top: 3px;
 }
 
 a {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: 400;
+  color: black;
+  text-decoration: none;
   margin: 0;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: var(--heading-color);
+  transition-duration: 0.5s;
+}
+
+.selectedPage {
+  font-weight: 600;
+}
+
+b {
+  font-weight: 600;
+}
+
+ul {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 200;
+  margin: 5px;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.hoursList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.welcome {
+  text-align: center;
 }
