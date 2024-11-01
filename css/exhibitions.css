@@ -1,18 +1,15 @@
 .exhibitionsSliderWrapper {
-  position: relative;
   height: 650px;
   margin-left: -10rem;
   margin-right: -10rem;
   overflow-y: auto;
   scroll-snap-align: y mandatory;
   scroll-behavior: smooth;
-}
-
-.exhibitionsSlider {
-  height: 3250px;
+  margin-bottom: -40px;
 }
 
 .exhibitions {
+  scroll-snap-align: start;
   height: 571px;
   padding-top: 40px;
   padding-bottom: 40px;
@@ -74,6 +71,10 @@
   }
 
   a:hover {
+    background-color: var(--heading-color);
+  }
+
+  a:active {
     background-color: var(--heading-color);
   }
 }
