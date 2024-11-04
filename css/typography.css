@@ -4,6 +4,7 @@ h1 {
   font-size: 48px;
   color: var(--heading-color);
   margin: 0;
+  margin-top: 40px;
 }
 
 h2 {

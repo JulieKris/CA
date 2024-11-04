@@ -1,5 +1,6 @@
 body {
   width: 100%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -8,9 +9,9 @@ body {
 }
 
 main {
+  margin-top: 100px;
   margin-left: 10rem;
   margin-right: 10rem;
-  margin-top: 132px;
   padding-bottom: 40px;
 }
 
@@ -23,11 +24,6 @@ main {
     flex-wrap: wrap;
     flex: 1;
     height: min-content;
-  }
-
-  img {
-    width: 30.7%;
-    object-fit: cover;
   }
 }
 

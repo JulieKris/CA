@@ -4,6 +4,5 @@
 @import url(header.css);
 @import url(footer.css);
 @import url(index.css);
-@import url(events.css);
-@import url(exhibitions.css);
+@import url(events-exhibitions.css);
 @import url(scrollbar.css);
