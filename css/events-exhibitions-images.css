@@ -1,0 +1,65 @@
+.evexImg {
+  z-index: -1;
+  position: absolute;
+  bottom: 0px;
+  right: -2px;
+  height: auto;
+}
+
+.aeronauticsImg {
+}
+
+.nightImg {
+}
+
+.energeticaImg {
+}
+
+.cosmologyImg1 {
+}
+
+.evolutionImg {
+  z-index: -1;
+  position: absolute;
+  left: 35%;
+  top: 120px;
+  width: 980px;
+  filter: drop-shadow(20px 20px 20px rgba(0, 0, 0, 0.5));
+  animation-name: hoveranimation;
+}
+
+.evolutionImg:hover {
+  width: 1000px;
+  transition: 1s;
+}
+
+.biologyImg {
+  z-index: -1;
+  position: absolute;
+  left: 50%;
+  top: 120px;
+  width: 370px;
+  filter: drop-shadow(20px 20px 20px rgba(0, 0, 0, 0.5));
+}
+
+.biologyImg:hover {
+  width: 385px;
+  transition: 1s;
+}
+
+.roboticsImg {
+  z-index: -1;
+  top: 96px;
+  left: 20%;
+  position: absolute;
+  width: 1170px;
+  filter: drop-shadow(20px 20px 20px rgba(0, 0, 0, 0.5));
+}
+
+.roboticsImg:hover {
+  width: 1185px;
+  transition: 1s;
+}
+
+.ecologyImg {
+}
