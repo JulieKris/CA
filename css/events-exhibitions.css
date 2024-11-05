@@ -52,10 +52,6 @@
   background-color: var(--background-color);
   padding-top: 10px;
   padding-bottom: 10px;
-
-  a {
-    font-weight: 400;
-  }
 }
 
 .sliderNavWrapper2 {
@@ -95,4 +91,43 @@
   top: 0px;
   padding-top: 152px;
   background-color: var(--background-color);
+}
+
+@media only screen and (max-width: 1180px) {
+  .evexs {
+    section {
+      color: black;
+      width: 100%;
+      height: fit-content;
+      padding: 0px;
+      margin-top: 0px;
+      background-image: none;
+    }
+  }
+
+  .evexContainer {
+    height: fit-content;
+    width: fit-content;
+    margin-top: 0px;
+  }
+
+  .evexSliderWrapper {
+    width: fit-content;
+    height: fit-content;
+  }
+
+  .evexSliderNav1 {
+    display: none;
+  }
+
+  .evexSliderNav2 {
+    display: none;
+  }
+
+  .evexTitle {
+    position: relative;
+    padding-top: 0px;
+    width: auto;
+    background-color: none;
+  }
 }

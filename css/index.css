@@ -5,11 +5,11 @@
   margin-top: -100px;
   background-image: url(../images/index-slider-bg-1920px.png);
   background-size: cover;
+  display: block;
 }
 
 .indexSliderWrapper {
   height: 600px;
-  margin-left: 10rem;
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
@@ -26,6 +26,7 @@
   height: 600px;
 
   section {
+    margin-left: 10rem;
     display: flex;
     flex-direction: column;
     justify-content: end;
@@ -70,4 +71,10 @@
   gap: 40px;
   height: min-content;
   background-color: aqua;
+}
+
+@media only screen and (max-width: 800px) {
+  .indexSliderContainer {
+    display: none;
+  }
 }

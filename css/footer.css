@@ -3,13 +3,14 @@ footer {
   background-image: url(../images/logo_gif.gif);
   background-size: cover;
   color: white;
+  padding-top: 40px;
   padding-left: 10rem;
   padding-right: 10rem;
-  padding-top: 40px;
   z-index: 3;
 
   nav {
     display: flex;
+    flex-direction: row;
     gap: 40px;
   }
 
@@ -48,5 +49,20 @@ footer {
 
   .selectedPage {
     font-weight: 500;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  footer {
+    nav {
+      flex-direction: column;
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  footer {
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 }

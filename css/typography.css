@@ -38,8 +38,8 @@ a:visited {
 }
 
 a:hover {
-  color: var(--heading-color);
   transition-duration: 0.5s;
+  font-weight: 600;
 }
 
 .selectedPage {

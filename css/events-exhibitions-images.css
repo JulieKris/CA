@@ -4,12 +4,25 @@
   bottom: 0px;
   right: -2px;
   height: auto;
+  margin-bottom: 0px;
 }
 
 .aeronauticsImg {
 }
 
 .nightImg {
+  display: block;
+  z-index: -1;
+  position: absolute;
+  width: 390px;
+  top: 190px;
+  right: 580px;
+  filter: drop-shadow(20px 20px 20px rgba(0, 0, 0, 0.5));
+}
+
+.nightImg:hover {
+  width: 405px;
+  transition: 1s;
 }
 
 .energeticaImg {
@@ -25,7 +38,6 @@
   top: 120px;
   width: 980px;
   filter: drop-shadow(20px 20px 20px rgba(0, 0, 0, 0.5));
-  animation-name: hoveranimation;
 }
 
 .evolutionImg:hover {
@@ -34,6 +46,7 @@
 }
 
 .biologyImg {
+  display: block;
   z-index: -1;
   position: absolute;
   left: 50%;
@@ -48,6 +61,7 @@
 }
 
 .roboticsImg {
+  display: block;
   z-index: -1;
   top: 96px;
   left: 20%;
@@ -62,4 +76,24 @@
 }
 
 .ecologyImg {
+  display: block;
+  z-index: -1;
+  position: absolute;
+  right: 0px;
+  top: 100px;
+  width: 1162px;
+  filter: drop-shadow(20px 20px 20px rgba(0, 0, 0, 0.5));
+}
+
+.ecologyImg:hover {
+  width: 1177px;
+  transition: 1s;
+}
+
+@media only screen and (max-width: 1180px) {
+  .evexImg {
+    position: relative;
+    width: 100%;
+    margin-bottom: 40px;
+  }
 }
