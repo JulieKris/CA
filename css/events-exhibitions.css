@@ -2,7 +2,6 @@
   position: relative;
   height: 840px;
   max-width: 1580px;
-  min-width: 430px;
   margin-top: -152px;
   align-content: end;
 }
@@ -107,7 +106,8 @@
 
   .evexContainer {
     height: fit-content;
-    width: fit-content;
+    width: 100%;
+    min-width: none;
     margin-top: 0px;
   }
 

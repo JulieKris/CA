@@ -1,8 +1,9 @@
 .evexImg {
   z-index: -1;
   position: absolute;
+  width: 1162px;
   bottom: 0px;
-  right: -2px;
+  right: 0px;
   height: auto;
   margin-bottom: 0px;
 }
@@ -32,6 +33,7 @@
 }
 
 .evolutionImg {
+  display: block;
   z-index: -1;
   position: absolute;
   left: 35%;
@@ -95,5 +97,21 @@
     position: relative;
     width: 100%;
     margin-bottom: 40px;
+  }
+
+  .evolutionImg {
+    display: none;
+  }
+
+  .biologyImg {
+    display: none;
+  }
+
+  .roboticsImg {
+    display: none;
+  }
+
+  .ecologyImg {
+    display: none;
   }
 }

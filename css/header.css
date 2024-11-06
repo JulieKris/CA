@@ -1,23 +1,29 @@
 header {
   position: fixed;
   display: flex;
+  justify-content: space-between;
+  gap: 40px;
   width: 100%;
   padding-left: 10rem;
   padding-right: 10rem;
   padding-top: 10px;
   padding-bottom: 10px;
+  justify-content: start;
   align-items: baseline;
   background-color: var(--background-color);
   z-index: 4;
 
+  nav {
+    display: block;
+  }
+
   ul {
     margin: 0;
     padding: 0;
-  }
-
-  li {
-    display: inline;
-    margin-left: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    list-style: none;
   }
 }
 
@@ -28,4 +34,17 @@ header {
   background-size: 150px;
   margin: 0;
   padding: 0;
+}
+
+@media only screen and (max-width: 900px) {
+  header {
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
+    justify-content: center;
+
+    nav {
+      display: none;
+    }
+  }
 }
