@@ -4,6 +4,7 @@
   max-width: 1580px;
   margin-top: -152px;
   align-content: end;
+  margin-bottom: 40px;
 }
 
 .evexSliderWrapper {
@@ -30,8 +31,12 @@
     height: 470px;
     padding: 40px;
     margin-top: 100px;
-    background-image: url(../images/logo_gif.gif);
+    background-color: #0d361e;
     background-size: cover;
+
+    h2 {
+      color: white;
+    }
   }
 }
 

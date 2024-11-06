@@ -65,15 +65,15 @@
 .roboticsImg {
   display: block;
   z-index: -1;
-  top: 96px;
-  left: 20%;
+  bottom: 0px;
+  left: 35%;
   position: absolute;
-  width: 1170px;
+  width: 800px;
   filter: drop-shadow(20px 20px 20px rgba(0, 0, 0, 0.5));
 }
 
 .roboticsImg:hover {
-  width: 1185px;
+  width: 815px;
   transition: 1s;
 }
 
