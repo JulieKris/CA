@@ -30,6 +30,123 @@
 }
 
 .cosmologyImg1 {
+  display: block;
+  z-index: -1;
+  position: absolute;
+  width: 105px;
+  top: 327px;
+  right: 88px;
+  filter: drop-shadow(20px 20px 20px rgba(0, 0, 0, 0.5));
+}
+
+.cosmologyImg1:hover {
+  width: 120px;
+  transition: 1s;
+}
+
+.cosmologyImg2 {
+  display: block;
+  z-index: -1;
+  position: absolute;
+  width: 105px;
+  top: 325px;
+  right: 212px;
+  filter: drop-shadow(20px 20px 20px rgba(0, 0, 0, 0.5));
+}
+
+.cosmologyImg2:hover {
+  width: 120px;
+  transition: 1s;
+}
+
+.cosmologyImg3 {
+  display: block;
+  z-index: -1;
+  position: absolute;
+  width: 105px;
+  top: 321px;
+  right: 333px;
+  filter: drop-shadow(20px 20px 20px rgba(0, 0, 0, 0.5));
+}
+
+.cosmologyImg3:hover {
+  width: 120px;
+  transition: 1s;
+}
+
+.cosmologyImg4 {
+  display: block;
+  z-index: -1;
+  position: absolute;
+  width: 105px;
+  top: 320px;
+  right: 448px;
+  filter: drop-shadow(20px 20px 20px rgba(0, 0, 0, 0.5));
+}
+
+.cosmologyImg4:hover {
+  width: 120px;
+  transition: 1s;
+}
+
+.cosmologyImg5 {
+  display: block;
+  z-index: -1;
+  position: absolute;
+  width: 105px;
+  top: 318px;
+  right: 577px;
+  filter: drop-shadow(20px 20px 20px rgba(0, 0, 0, 0.5));
+}
+
+.cosmologyImg5:hover {
+  width: 120px;
+  transition: 1s;
+}
+
+.cosmologyImg6 {
+  display: block;
+  z-index: -1;
+  position: absolute;
+  width: 105px;
+  top: 319px;
+  right: 710px;
+  filter: drop-shadow(20px 20px 20px rgba(0, 0, 0, 0.5));
+}
+
+.cosmologyImg6:hover {
+  width: 120px;
+  transition: 1s;
+}
+
+.cosmologyImg7 {
+  display: block;
+  z-index: -1;
+  position: absolute;
+  width: 105px;
+  top: 323px;
+  right: 838px;
+  filter: drop-shadow(20px 20px 20px rgba(0, 0, 0, 0.5));
+}
+
+.cosmologyImg7:hover {
+  width: 120px;
+  transition: 1s;
+}
+
+.cosmologyImg8 {
+  display: block;
+  z-index: -1;
+  position: absolute;
+  width: 105px;
+  top: 322px;
+  right: 964px;
+  filter: drop-shadow(20px 20px 20px rgba(0, 0, 0, 0.5));
+}
+
+.cosmologyImg8:hover {
+  width: 120px;
+  transition: 1s;
 }
 
 .evolutionImg {
@@ -39,7 +156,7 @@
   left: 35%;
   top: 120px;
   width: 980px;
-  filter: drop-shadow(20px 20px 20px rgba(0, 0, 0, 0.5));
+  filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.5));
 }
 
 .evolutionImg:hover {
@@ -54,7 +171,7 @@
   left: 50%;
   top: 120px;
   width: 370px;
-  filter: drop-shadow(20px 20px 20px rgba(0, 0, 0, 0.5));
+  filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.5));
 }
 
 .biologyImg:hover {
@@ -65,15 +182,15 @@
 .roboticsImg {
   display: block;
   z-index: -1;
-  bottom: 0px;
+  bottom: -0px;
   left: 35%;
   position: absolute;
-  width: 800px;
-  filter: drop-shadow(20px 20px 20px rgba(0, 0, 0, 0.5));
+  width: 600px;
+  filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.5));
 }
 
 .roboticsImg:hover {
-  width: 815px;
+  width: 615px;
   transition: 1s;
 }
 
@@ -84,7 +201,7 @@
   right: 0px;
   top: 100px;
   width: 1162px;
-  filter: drop-shadow(20px 20px 20px rgba(0, 0, 0, 0.5));
+  filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.5));
 }
 
 .ecologyImg:hover {

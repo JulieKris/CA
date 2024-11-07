@@ -35,7 +35,8 @@
     width: 350px;
     padding: 40px;
     margin-bottom: 60px;
-    background-color: #0d361e;
+    background-image: url(../images/logo_gif2.gif);
+    background-size: cover;
 
     h2 {
       color: white;
@@ -72,8 +73,10 @@
 .indexImg {
   display: flex;
   justify-content: center;
+  align-content: end;
   overflow: hidden;
   contain: size;
+  padding-bottom: 20px;
 
   img {
     flex-shrink: 0;

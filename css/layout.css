@@ -19,17 +19,13 @@ main {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 40px;
   height: min-content;
+  gap: 40px;
   margin-bottom: 40px;
 
   div {
     flex-wrap: wrap;
     flex: 1;
-
-    p {
-      margin-bottom: -5px;
-    }
   }
 }
 
@@ -37,6 +33,10 @@ main {
   display: flex;
   flex-direction: column;
   gap: 40px;
+
+  ul {
+    margin-bottom: 20px;
+  }
 }
 
 @media only screen and (max-width: 1200px) {
