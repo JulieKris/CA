@@ -59,7 +59,7 @@ footer {
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
   footer {
     padding-left: 2rem;
     padding-right: 2rem;
