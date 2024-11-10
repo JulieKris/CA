@@ -100,7 +100,7 @@ header {
 
   .mobileNav #mobileMenuActive:checked ~ .linksContainer {
     height: 130px;
-    width: 90px;
+    width: 140px;
     margin-right: 10px;
   }
 
