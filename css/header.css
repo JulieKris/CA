@@ -74,6 +74,7 @@ header {
 
 #logo {
   width: 150px;
+  background-color: var(--heading-color);
   background-image: url(../images/logo_gif3.gif);
   background-size: 150px;
   margin: 0;

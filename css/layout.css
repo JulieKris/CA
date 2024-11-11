@@ -59,7 +59,15 @@ main {
 @media only screen and (max-width: 900px) {
   main {
     margin-top: 0;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+
+    p,
+    h1,
+    h2,
+    .hoursList {
+      margin-left: 2rem;
+      margin-right: 2rem;
+    }
   }
 }
