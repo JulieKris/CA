@@ -54,8 +54,9 @@ header {
   gap: 10px;
   height: 0px;
   width: 0px;
+  opacity: 0;
   overflow: hidden;
-  transition: 0.5s;
+  transition: 0.7s ease-in-out;
   z-index: 6;
 }
 
@@ -106,6 +107,7 @@ header {
     height: 130px;
     width: 100px;
     margin-right: 10px;
+    opacity: 100;
   }
 
   #mobileMenuActive:checked ~ .openMobileMenu {
