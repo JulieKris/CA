@@ -13,6 +13,18 @@ main {
   margin-left: 10rem;
   margin-right: 10rem;
   padding-bottom: 40px;
+
+  h1,
+  h2,
+  p,
+  a,
+  li {
+    animation: appear 0.5s;
+  }
+
+  img {
+    animation: appear 1s;
+  }
 }
 
 .flex {
@@ -50,7 +62,7 @@ main {
   }
 }
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1200px) {
   .flex {
     flex-direction: column;
   }
@@ -65,9 +77,20 @@ main {
     p,
     h1,
     h2,
-    .hoursList {
+    .hoursList,
+    ul {
       margin-left: 2rem;
       margin-right: 2rem;
     }
+  }
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
   }
 }
