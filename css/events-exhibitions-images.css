@@ -9,6 +9,18 @@
 }
 
 .aeronauticsImg {
+  display: block;
+  z-index: -1;
+  position: absolute;
+  width: 1000px;
+  top: 25px;
+  left: 37%;
+  filter: drop-shadow(10px 20px 20px rgba(0, 0, 0, 0.5));
+}
+
+.aeronauticsImg:hover {
+  width: 1015px;
+  transition: 1s;
 }
 
 .nightImg {
