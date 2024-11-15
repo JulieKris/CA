@@ -157,6 +157,10 @@
     margin-bottom: 40px;
   }
 
+  .aeronauticsImg {
+    display: none;
+  }
+
   .nightImg {
     display: none;
   }
